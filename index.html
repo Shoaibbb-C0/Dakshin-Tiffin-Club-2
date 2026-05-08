@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dakshin Tiffin Club — Authentic Bangalore Flavours in Navi Mumbai</title>
+<meta name="description" content="Dakshin Tiffin Club — a Bangalore-style South Indian café in Seawoods, Nerul, Navi Mumbai. Crispy benne dosas, comforting tiffins, and freshly brewed filter coffee." />
+<meta name="keywords" content="Bangalore-style dosa Navi Mumbai, South Indian café Seawoods, best filter coffee Navi Mumbai, benne dosa café Nerul, authentic South Indian breakfast" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Loading Screen -->
+<div class="loader" id="loader">
+  <div class="loader-logo">DAKSHIN <span style="color:#c8973f">·</span> TIFFIN CLUB</div>
+  <div class="loader-bar"></div>
+</div>
+
+<!-- Navigation -->
+<nav class="navbar" id="navbar">
+  <a href="#" class="nav-logo">Dakshin <span>·</span> Tiffin Club</a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">Our Story</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#reviews">Reviews</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#visit">Visit</a></li>
+  </ul>
+  <a href="#visit" class="nav-cta">RESERVE TABLE</a>
+  <div class="menu-toggle" id="menuToggle"><span></span><span></span><span></span></div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Bangalore · Brought to Navi Mumbai</div>
+    <h1>Authentic Bangalore<br>Flavours <em>in Navi Mumbai</em></h1>
+    <p>Simple heritage food we love — crispy benne dosas, comforting tiffins, and freshly brewed filter coffee, served the way Bangalore has loved them for generations.</p>
+    <div class="hero-buttons">
+      <a href="#menu" class="btn-primary">Explore Menu →</a>
+      <a href="#visit" class="btn-secondary">Visit Café</a>
+    </div>
+  </div>
+
+  <div class="review-badge">
+    <div class="stars">★★★★★</div>
+    <div class="rating-num">4.8</div>
+    <div class="rating-text">RATED BY CUSTOMERS</div>
+  </div>
+
+  <div class="scroll-indicator">
+    <span>SCROLL</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about-grid">
+    <div class="about-images reveal">
+      <div class="about-img about-img-1">
+        <img src="https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=800&q=80" alt="Crispy benne dosa served traditional style">
+      </div>
+      <div class="about-img about-img-2">
+        <img src="https://images.unsplash.com/photo-1606471191009-63994c53433b?w=600&q=80" alt="South Indian filter coffee in brass tumbler">
+      </div>
+      <div class="about-decor">EST.<br>BANGALORE<br>SOUL</div>
+    </div>
+    <div class="about-content reveal">
+      <div class="section-eyebrow">Our Story</div>
+      <h2>Where Bangalore's <em>warmth</em> meets a Navi Mumbai morning.</h2>
+      <p>Dakshin Tiffin Club brings the warmth of traditional Bangalore tiffin culture to Navi Mumbai. From buttery benne dosas to aromatic filter coffee, every dish is crafted for comfort, nostalgia, and authenticity — exactly the way grandmothers in Malleshwaram and Basavanagudi have made them for decades.</p>
+      <div class="features-list">
+        <div class="feature-item">
+          <div class="feature-icon">◈</div>
+          <h4>Authentic Recipes</h4>
+          <p>Traditional Bangalore-style preparations, unchanged.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">☕</div>
+          <h4>Filter Coffee</h4>
+          <p>Freshly ground, slow-brewed, decoction-strong.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">✦</div>
+          <h4>Homely Ambience</h4>
+          <p>A warm, welcoming corner of South India.</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">⚡</div>
+          <h4>Quick Service</h4>
+          <p>Friendly, attentive, and refreshingly fast.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MENU -->
+<section class="menu" id="menu">
+  <div class="section-header reveal">
+    <div class="section-eyebrow">Signature Plates</div>
+    <h2 class="section-title">A taste of <em>tradition</em>, plated with love.</h2>
+    <p class="section-subtitle">Each dish carries decades of South Indian heritage — handcrafted, unhurried, and made the proper way.</p>
+  </div>
+
+  <div class="menu-tabs reveal">
+    <button class="menu-tab active" data-cat="all">All</button>
+    <button class="menu-tab" data-cat="breakfast">Breakfast</button>
+    <button class="menu-tab" data-cat="tiffins">Tiffins</button>
+    <button class="menu-tab" data-cat="coffee">Coffee</button>
+    <button class="menu-tab" data-cat="meals">Meals</button>
+  </div>
+
+  <div class="menu-grid" id="menuGrid">
+    <div class="menu-card reveal" data-cat="breakfast">
+      <div class="menu-card-img">
+        <img src="https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=600&q=80" alt="Benne Dosa">
+        <span class="menu-card-tag">Signature</span>
+      </div>
+      <div class="menu-card-body">
+        <h3>Benne Dosa</h3>
+        <p>The iconic Bangalore butter dosa — crisp edges, golden bottom, served with chutney & sagu.</p>
+        <div class="menu-card-foot">
+          <span class="menu-price">₹160</span>
+          <button class="menu-add" aria-label="Add">+</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-card reveal" data-cat="coffee">
+      <div class="menu-card-img">
+        <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?w=600&q=80" alt="Filter Coffee">
+        <span class="menu-card-tag">House Favourite</span>
+      </div>
+      <div class="menu-card-body">
+        <h3>Filter Coffee</h3>
+        <p>Freshly ground decoction, hot milk, served frothy in our traditional davara-tumbler.</p>
+        <div class="menu-card-foot">
+          <span class="menu-price">₹80</span>
+          <button class="menu-add" aria-label="Add">+</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-card reveal" data-cat="tiffins">
+      <div class="menu-card-img">
+        <img src="https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=600&q=80" alt="Idli Vada">
+        <span class="menu-card-tag">Classic</span>
+      </div>
+      <div class="menu-card-body">
+        <h3>Idli & Vada</h3>
+        <p>Soft, fluffy idlis paired with crisp medu vada — served with sambar and three chutneys.</p>
+        <div class="menu-card-foot">
+          <span class="menu-price">₹140</span>
+          <button class="menu-add" aria-label="Add">+</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-card reveal" data-cat="meals">
+      <div class="menu-card-img">
+        <img src="https://images.unsplash.com/photo-1567337710282-00832b415979?w=600&q=80" alt="South Indian Meals">
+        <span class="menu-card-tag">Wholesome</span>
+      </div>
+      <div class="menu-card-body">
+        <h3>South Indian Meals</h3>
+        <p>A homely thali — rice, sambar, rasam, palya, kosambari, curd & sweet, served on a banana leaf.</p>
+        <div class="menu-card-foot">
+          <span class="menu-price">₹260</span>
+          <button class="menu-add" aria-label="Add">+</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-card reveal" data-cat="breakfast">
+      <div class="menu-card-img">
+        <img src="https://images.unsplash.com/photo-1630383249896-424e482df921?w=600&q=80" alt="Podi Dosa">
+        <span class="menu-card-tag">Spicy</span>
+      </div>
+      <div class="menu-card-body">
+        <h3>Podi Dosa</h3>
+        <p>Crisp dosa generously smeared with our smoky house-ground gunpowder masala and ghee.</p>
+        <div class="menu-card-foot">
+          <span class="menu-price">₹180</span>
+          <button class="menu-add" aria-label="Add">+</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-card reveal" data-cat="tiffins">
+      <div class="menu-card-img">
+        <img src="https://images.unsplash.com/photo-1701579231349-d7459c40d52f?w=600&q=80" alt="Kesari Bath">
+        <span class="menu-card-tag">Sweet</span>
+      </div>
+      <div class="menu-card-body">
+        <h3>Kesari Bath</h3>
+        <p>Saffron-kissed semolina pudding with ghee, cashews and raisins — fragrant Bangalore comfort.</p>
+        <div class="menu-card-foot">
+          <span class="menu-price">₹120</span>
+          <button class="menu-add" aria-label="Add">+</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews" id="reviews">
+  <div class="section-header reveal" style="position:relative;z-index:2;">
+    <div class="section-eyebrow">Loved By Our Guests</div>
+    <h2 class="section-title">Stories from <em>our table</em>.</h2>
+    <p class="section-subtitle">Honest words from the wonderful people who keep walking back in.</p>
+  </div>
+
+  <div class="review-track reveal" style="position:relative;z-index:2;">
+    <div class="review-card">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">"The ambience felt very homely — like stepping into a cosy Bangalore tiffin room. The benne dosa was simply outstanding."</p>
+      <div class="review-user">
+        <div class="review-avatar">A</div>
+        <div>
+          <div class="review-name">Aarthi Ramesh</div>
+          <div class="review-meta">Seawoods · 2 weeks ago</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="review-card">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">"Simple menu, amazing food. The filter coffee is exactly how my grandmother used to make it. Found my new weekend spot."</p>
+      <div class="review-user">
+        <div class="review-avatar">K</div>
+        <div>
+          <div class="review-name">Karthik Iyer</div>
+          <div class="review-meta">Nerul · 1 month ago</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="review-card">
+      <div class="review-stars">★★★★★</div>
+      <p class="review-text">"Quick service, reasonable prices and authentic flavours. The podi dosa was smoky, buttery, perfect. Highly recommended."</p>
+      <div class="review-user">
+        <div class="review-avatar">S</div>
+        <div>
+          <div class="review-name">Shruthi Nair</div>
+          <div class="review-meta">Belapur · 3 weeks ago</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery" id="gallery">
+  <div class="section-header reveal">
+    <div class="section-eyebrow">Ambience</div>
+    <h2 class="section-title">A moment, <em>plated</em>.</h2>
+    <p class="section-subtitle">Glimpses from our kitchen, our coffee counter, and our quiet little corner of South India.</p>
+  </div>
+
+  <div class="gallery-grid reveal">
+    <div class="gallery-item"><img src="https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=800&q=80" alt="Dosa preparation"><div class="gallery-icon">⤢</div></div>
+    <div class="gallery-item"><img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?w=600&q=80" alt="Filter coffee pour"><div class="gallery-icon">⤢</div></div>
+    <div class="gallery-item"><img src="https://images.unsplash.com/photo-1567337710282-00832b415979?w=600&q=80" alt="South Indian meals"><div class="gallery-icon">⤢</div></div>
+    <div class="gallery-item"><img src="https://images.unsplash.com/photo-1559329007-40df8a9345d8?w=800&q=80" alt="Café interior"><div class="gallery-icon">⤢</div></div>
+    <div class="gallery-item"><img src="https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=600&q=80" alt="Idli vada serving"><div class="gallery-icon">⤢</div></div>
+    <div class="gallery-item"><img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&q=80" alt="Café ambience"><div class="gallery-icon">⤢</div></div>
+    <div class="gallery-item"><img src="https://images.unsplash.com/photo-1606471191009-63994c53433b?w=600&q=80" alt="Brass tumbler coffee"><div class="gallery-icon">⤢</div></div>
+  </div>
+</section>
+
+<!-- LOCATION -->
+<section class="location" id="visit">
+  <div class="section-header reveal">
+    <div class="section-eyebrow">Visit Us</div>
+    <h2 class="section-title">Find your <em>seat</em> at our table.</h2>
+    <p class="section-subtitle">A warm welcome, a strong filter coffee, and breakfast that tastes like home — every single day.</p>
+  </div>
+
+  <div class="location-grid">
+    <div class="location-info reveal">
+      <h2>Dakshin Tiffin Club</h2>
+      <p class="script">Seawoods · Nerul</p>
+
+      <div class="info-block">
+        <div class="info-label">Address</div>
+        <div class="info-value">
+          <strong>Shop No. 2, Safal Park Housing Society</strong><br>
+          Plot No. 3712, Opp. Hawares Centurion Mall,<br>
+          Seawoods East, Nerul, Navi Mumbai,<br>
+          Maharashtra 400706
+        </div>
+      </div>
+
+      <div class="info-block">
+        <div class="info-label">Hours</div>
+        <div class="info-value"><strong>Open Daily</strong> · Till 10:30 PM</div>
+      </div>
+
+      <div class="info-block">
+        <div class="info-label">Pricing</div>
+        <div class="info-value"><strong>₹200 – ₹400</strong> per person</div>
+      </div>
+
+      <div class="location-actions">
+        <a href="https://www.google.com/maps/search/?api=1&query=Dakshin+Tiffin+Club+Seawoods+Nerul" target="_blank" rel="noopener" class="btn-dark">Get Directions →</a>
+        <a href="tel:+910000000000" class="btn-outline">Reserve Table</a>
+      </div>
+    </div>
+
+    <div class="map-container reveal">
+      <iframe
+        src="https://www.openstreetmap.org/export/embed.html?bbox=73.0150%2C19.0210%2C73.0270%2C19.0290&layer=mapnik&marker=19.0250%2C73.0210"
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Dakshin Tiffin Club Location"></iframe>
+      <div class="map-pin">📍 Dakshin Tiffin Club</div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <h3>Dakshin <span>·</span> Tiffin Club</h3>
+      <p class="footer-tagline">"Serving Bangalore's comfort food with heart."</p>
+      <p>An authentic South Indian café in Seawoods, Nerul — celebrating benne dosas, filter coffee and the soul of Bangalore tiffin culture.</p>
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram">📷</a>
+        <a href="#" aria-label="Facebook">f</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Dakshin+Tiffin+Club+Seawoods+Nerul" aria-label="Google Maps">📍</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="#about">Our Story</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Visit</h4>
+      <ul>
+        <li><a href="#visit">Find Us</a></li>
+        <li><a href="#visit">Hours</a></li>
+        <li><a href="#visit">Reserve</a></li>
+        <li><a href="#visit">Directions</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li>Seawoods East, Nerul</li>
+        <li>Navi Mumbai, 400706</li>
+        <li>Open Daily · Till 10:30 PM</li>
+        <li><a href="mailto:hello@dakshintiffin.club">hello@dakshintiffin.club</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Dakshin Tiffin Club. Made with filter coffee.</span>
+    <span>Bangalore-style dosa · Filter coffee · South Indian breakfast · Navi Mumbai</span>
+  </div>
+</footer>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose">✕</button>
+  <img id="lightboxImg" src="" alt="Gallery preview">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
